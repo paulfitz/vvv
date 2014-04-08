@@ -516,4 +516,16 @@ div.top h3 {
     border-bottom: none;
 }
 
+.draft-alert { 
+  padding: 20px;
+  margin: 20px;
+  background: #888;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 200%;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif; 
+  text-shadow: 0px 0px 5px black;
+}
 
