@@ -195,17 +195,21 @@ p {
 }
 
 h2 {
-    border-bottom: 1px #aaf solid;
     clear: right;
 }
 
 pre {
-    border: 1px #006F02 solid;
+    border-top: 1px #006F02 solid;
+    border-bottom: 1px #006F02 solid;
     background: #B0E4AE;
     font-size: 12px;
-    padding: 4px;
+    padding-left: 10px;
+    min-width: 500px;
 }
 
+.call {
+    overflow-x: visible;
+}
 
 /* File Releases */
 
