@@ -1,0 +1,35 @@
+#menu {
+  float: initial;
+  width: initial;
+}
+
+#menu .title { 
+  display: none;
+}
+
+#menu ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+#menu li {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.sponsors, .minor, .draft-alert {
+  display: none;
+}
+
+div.content {
+  margin-left: initial;
+  margin-right: initial;
+}
+
+.slideshow {
+  float: initial; 
+  margin-left: initial;
+  overflow-x:scroll;
+}
+

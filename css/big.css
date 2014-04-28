@@ -1,0 +1,18 @@
+body { 
+  min-width: 800px;
+}
+
+#wrapper { 
+  width: 800px; /* was 800 */
+}
+
+.slideshow {
+  float: right; 
+  margin-left: 10px;
+}
+
+.side-img {
+ float: right;
+ border: none;
+ margin: 0px 0px 0px 10px;
+}

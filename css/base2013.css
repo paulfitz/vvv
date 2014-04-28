@@ -6,14 +6,17 @@ html {
 body {
     background: #004;
     text-align: center;
-    min-width: 800px;
     padding: 0px;
     margin: 0px;
     font-size: 80%;
 }
 
-h1, h2, h3, .top, #menu { 
+h1, h2, h3, .top, #menu, .figure-caption, dt, .titly { 
     font-family: 'Open Sans', lucida grande,verdana,sans-serif;
+}
+
+dt {
+  font-weight: bold;
 }
 
 #wrapper {
@@ -23,7 +26,6 @@ h1, h2, h3, .top, #menu {
      margin-left: auto;
      margin-right: auto;
      text-align: left;
-     width: 990px; /* was 800 */
      padding-bottom: 20px;
      border-bottom: 50px #004 solid;
 }
@@ -146,7 +148,6 @@ div.top h1 {
 }
 
 #menu li.item a:hover, ul.sub li.item a:hover {
-    display: block;
     background: #ac0011;
     color: #ffffff;
     text-decoration: none;
@@ -370,95 +371,6 @@ img.float {
 }
 
 
-
-/*@import: url(wiki.css)*/
-
-
-
-/* FORM STUFF */
-
-SELECT, option, textarea, input  {
-
-    color:                  #000000; 
-    font-size:              10px; 
-    text-decoration:        none; 
-    background:             white; 
-    border:                 1px solid #666666;
-    
-    margin:                 2px 0px 2px 0;
-    padding:                2px;
-
-}
-
-/* now make them all have nice hovers */
-
-
-
-SELECT:hover, option:hover, textarea:hover, input:hover {
-    background:             #ddd; 
-}
-
-
-form.search {
-    /*display:                inline;
-    background:             #f0f0f0;
-    */
-    
-    text-align:             center;
-        
-    display:                block;
-    background:             #f0f0f0;
-    color:                  #0081ac;
-    border-top:             1px #d6d6d6 solid;
-    border-bottom:          1px #d6d6d6 solid;
-    margin:                 0px;
-    padding:                4px;
-    padding-left:           10px;
-  
-    
-}
-
-form.search:hover {
-    background:             #ac0011;
-}
-
-
-
-#post_news input
-{
-    width:      35%;
-}
-
-#post_news textarea
-{
-    width:	100%;
-    height:	150px;
-}
-
-input#login,
-#post_news input#preview,
-#post_news input#save,
-#post_news input#reset
-{
-    width:      100px;
-}
-
-
-#post_news table
-{
-    padding:    0;
-}
-
-#post_news td
-{
-    padding-left:    0;
-}
-#post_news table tr td.header
-{
-    width:          10%; 
-    font-weight:    bold;
-}
-
 .alert
 {
     color:          red;
@@ -529,3 +441,35 @@ div.top h3 {
   text-shadow: 0px 0px 5px black;
 }
 
+.figure .figure-art { 
+  text-align: center;
+}
+
+.figure .figure-caption { 
+  margin: 0 auto;
+  display: table;
+  background: #555;
+  color: white;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px;
+}
+
+dl {
+  padding-left: 10px;
+  margin-left: 3px;
+  border-left: 3px solid #aaa;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.titly {
+  font-weight: bold;
+}
+
+.figure-art img {
+  width: 100%;
+}
